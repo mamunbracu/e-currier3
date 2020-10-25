@@ -1,0 +1,17 @@
+.reservation{
+    background-color: rgb(173, 117, 117);
+}
+input.form-control {
+    height: 4.8rem;
+    font-size: 1.2rem;
+}
+select.form-control {
+    height: 4.8rem;
+    font-size: 1.2rem;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+    color: antiquewhite;
+}

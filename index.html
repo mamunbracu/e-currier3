@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>E-Currier |Delivery Expert</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&family=Lato:wght@300;400;700;900&family=Yeseva+One&display=swap&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor-css/responsivegridsystem.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+    <!--Header Section Start-->
+    <header id="home" class="header-area">
+       <nav>
+            <div class="container">
+                <a href="/"><img src="img/e-corrier-logo.svg" alt="E-currier" class="logo"></a>
+                <ul class="main-nav">
+                    <li><a href="#">Tracking</a></li>
+                    </li>
+                    <li><a href="price.html">Price</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href=""><i class="fa fa-phone"></i>  + 975 321 789</a></li>
+                    <li><button class="button-nav">Registration</button></li>
+                    <li><button class="button-nav1">Login</button></li>
+                    
+                </ul>
+                <!--Mobile Menu Structure-->
+                <div class="mobile-menu">
+                    <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+                    <div class="overlay" id="myNav">
+                        <a href="javascript:void()" onclick="closeNav()" class="closebtn"><i class="fas fa-times"></i></a>
+                        <div class="overlay-contents">
+                            <a onclick="closeNav()" href="#home">Tracking</a>
+                            <a onclick="closeNav()" href="price.html">price</a>
+                           
+                            <a onclick="closeNav()" href="reservation.html">Reservations</a>
+                            <a onclick="closeNav()" href="#registration"><button class="button-nav">Registration</button></a>
+                            <a onclick="closeNav()" href="#login"><button class="button-nav1">Login</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="parcel">
+                            <h2>Partner with eCourier</h2>
+                            <p class="header-text">Find one stop solution for all your logistic needs right here. We provide solutions to help your business grow.</p>
+                            <input type="text" class="input" placeholder="Type Your Tracking Number">
+                            <input type="" class="track-btn" placeholder="Track Parcel">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="parcel-img">
+                            <img src="img/header-img.png" alt="Parcel pic" class="header-mage">
+                        </div>
+                    </div>
+                </div>
+               <div class="btn ntm-outline-success"></div>
+            </div>
+        </div>
+    </header>
+    <!--Header Section End-->
+    
+    
+    <!--provide Section Start-->
+    <section class="provide-section js-sticky-standard py-5" id="provide">
+        <div class="container py-5 mb-5">
+            <h2 class="mt-5">We provide services that you can rely on</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 overlay-effect">
+                    <div class="card">
+                        <img src="img/provide/img-Call-center.jpg" class="img-fluid p-2" alt="" class="provide-img">
+                        <div class="card-body">
+                            <h4 class="pt-5 pb-4">Call Center</h4>
+                            <p class="mb-5 mt-2 pt-3">Let us manage the queries of resources, customers, 3rd party merchants etc. while you focus on your core business. Take dedicated seats or make any customized arrangement with us to meet your call center requirements.</p>
+                            <i class="fas 2x fa-phone-square-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 overlay-effect">
+                    <div class="card">
+                        <img src="img/provide/delivery-bkash.jpg" class="img-fluid p-2" alt="" class="provide-img">
+                    <div class="card-body">
+                        <h4 class="pt-5 pb-4">bKash on Delivery (BOD)</h4>
+                        <p class="mb-5 mt-2 pt-3">Zero contact delivery ensured by our innovative solution bKash on Delivery. Customers can pay for their products easily through bKash after product delivery. </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4 overlay-effect">
+                    <div class="card">
+                        <img src="img/provide/img-delivery-man.jpg" class="img-fluid p-2" alt="" class="provide-img">
+                    <div class="card-body">
+                        <h4 class="pt-5 pb-4">Parcel Pick &#038; Drop Service</h4>
+                        <p class="mb-5 mt-2 pt-3">We are the first integrated ecommerce logistic solutions provider in the country ensuring reliability and flexibility with speed and accuracy. Our delivery services portfolio includes, same/next day delivery, nationwide delivery, COD/bKash on delivery etc. </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4 overlay-effect">
+                    <div class="card">
+                        <img src="img/provide/img-Packaging.jpg" class="img-fluid p-2" alt="" class="provide-img">
+                        <div class="card-body">
+                            <h4 class="pt-5 pb-4">Packaging Services</h4>
+                            <p class="mb-5 mt-2 pt-3">Need attractive boxes for your products? Looking for packaging materials to protect fragile items? From packaging materials to packaging service we can offer you a complete packaging solution.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 overlay-effect">
+                    <div class="card">
+                        <img src="img/provide/img-Warehouse.jpg" class="img-fluid p-2" alt="" class="provide-img">
+                        <div class="card-body">
+                            <h4 class="pt-5 pb-4">Warehouse</h4>
+                            <p class="mb-5 mt-2 pt-3">Large or small, short term or long term let eCourier handle all your essential warehousing needs with the same dependability and standards of excellence that we are known for in all our services. Our warehouses are equipped with state-of-the-art surveillance and alarm systems, together with a professionally trained staff backed by insurance coverage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 overlay-effect">
+                    <div class="card">
+                        <img src="img/provide/img-Fulfillment.jpg" class="img-fluid p-2" alt="" class="provide-img">
+                        <div class="card-body">
+                            <h4 class="pt-5 pb-4">Fulfillment</h4>
+                            <p class="mb-5 mt-2 pt-3">We operate 3 fulfillment centers with over 35,000 sft of storage and processing space. Our integrated warehouse management system is designed to enable efficient multi-tenant, multi-location warehousing – allowing clients to quickly and flexibly scale operations across Bangladesh with zero fixed costs.</p>
+                        </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
+        <path fill="#0099ff" fill-opacity="1" d="M0,64L1440,224L1440,320L0,320Z"></path>
+      </svg>
+    <!--provide Section End-->
+    <section class="py-5 why-eCourier">
+        <div class="container py-5 mt-3">
+            <h2 class="heading">Why eCourier</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-start">
+                        <img src="img/eCourier/one-stop.svg" class="img-fluid pr-3 mr-4" alt="">
+                        <div class="">
+                            <h4 class="head-part">One Stop Solution</h4>
+                            <h6 class="p-part">We understand how to make logistics work for our merchant partners. Our job is to let our partners focus on their core business while we take care of the rest.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-start">
+                        <img src="img/eCourier/wide-range.svg" class="img-fluid pr-3 mr-4" alt="">
+                        <div class="">
+                            <h4 class="head-part">Wide Coverage</h4>
+                            <h6 class="p-part">We have a dedicated delivery channel of 350+ delivery agents in Dhaka and Chattogram. We have partnered with 50+ franchises all over the country as well.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-start">
+                        <img src="img/eCourier/full-track.svg" class="img-fluid pr-3 mr-4" alt="">
+                        <div class="">
+                            <h4 class="head-part">Full Tracking</h4>
+                            <h6 class="p-part">Merchants have full access of tracking every step of the delivery. We provide end to end real time tracking facilities through email, sms and QR code</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5 pt-5">
+                    <div class="d-flex justify-content-start">
+                        <img src="img/eCourier/delivery.svg" class="img-fluid pr-3 mr-4" alt="">
+                        <div class="">
+                            <h4 class="head-part">Delivery confirmation with OTP</h4>
+                            <h6 class="p-part">Two factor authentications - OTP verification is implemented at the time of delivery to ensure an additional layer of security to the delivered package</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5 pt-5">
+                    <div class="d-flex justify-content-start">
+                        <img src="img/eCourier/service.svg" class="img-fluid pr-3 mr-4" alt="">
+                        <div class="">
+                            <h4 class="head-part">Fastest Service</h4>
+                            <h6 class="p-part">Our team works round the clock to ensure fastest delivery and minimize cancellation ratio so that we, as a business partner, can ensure our customer’s growth.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5 pt-5">
+                    <div class="d-flex justify-content-start">
+                        <img src="img/eCourier/cash.svg" class="img-fluid pr-3 mr-4" alt="">
+                        <div class="">
+                            <h4 class="head-part">Cash on Delivery (COD)</h4>
+                            <h6 class="p-part">We collect cash from your customer and transfer it to you on time through a formal banking channel, and of course with all the detailed supporting information.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wave-section">
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+          </div>
+    </section>
+    <!-- wave end -->
+    <!-- clients -->
+    <section class="py-5 client">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 my-5">
+                    <h2>eCourier Clients</h2>
+                    <div class="lined-courier"></div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="img/client/Apex-Logo.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/Banglalink-logo.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/BritishCouncil.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/china.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/Daraz_logo.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/Ecstasy-logo.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/Evaly-1.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/Foodpanda-Logo.wine_.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/gpblack.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/ILLIYEEN-Logo2.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/jagoo-logo.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/client/Le-Reve.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 blog my-3">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-4">
+                    <h2>eCourier Blog</h2>
+                    <div class="lined-courier" style="color: coral;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/blog/map.jpg" alt="">
+                    <h5>May 15, 2018</h5>
+                    <h4>ঢাকার বাহিরে বিভাগীয় শহরে ডেলিভারি এখন ৪৮ ঘণ্টায়!</h4>
+                    <p>ইকুরিয়ার দিচ্ছে ঢাকার বাহিরে দেশের ৮টি বিভাগীয় সদরে ৪৮ ঘন্টার মধ্যে ডেলিভারি! চট্টগ্রাম,সিলেট,রাজশাহী,বরিশাল,খুলনা,রংপুর,ময়মনসিংহ। আপনার বুকিংকৃত পণ্য গ্রাহকের কাছে আরও দ্রুত পৌঁছে দিতে [&hellip;]</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/blog/logistic.jpg" alt="">
+                    <h5>May 15, 2018</h5>
+                    <h4>সকল লজিস্টিক সল্যুশন এখন এক জায়গায়</h4>
+                    <p>একজন অনলাইন মার্চেন্টকে লজিস্টিক সার্ভিসের জন্য এখন আর এদিক ওদিক ছুটাছুটি করা লাগবেনা। ই-কুরিয়ার শুধুমাত্র একটি ডেলিভারি কোম্পানি নয়, বরং সম্পূর্ণ লজিস্টিক [&hellip;]</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/blog/business.png" alt="">
+                    <h5>May 15, 2018</h5>
+                <h4>ব্যবসা আপনার, জানবে সবাই</h4>
+                <p>অনলাইন ব্যবসায়ে প্রচারণার ক্ষেত্রে অনেক সময়ই মার্চেন্টদের প্রতিবন্ধকতার মুখোমুখি হতে হয়। ই-কুরিয়ারে অনলাইন মার্চেন্টদের জন্য সকল প্রকার লজিস্টিক সার্ভিস তো আছেই, এর [&hellip;]</p>
+                </div>
+            </div>
+            <div class="text-center"> <a  class="common-btn btn btn-success">view all blogs</a> </div>
+        </div>
+    </section>
+    <section class="price-calculator mt-5">
+        
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+          
+    <div class="col-5">
+              <img class="img-fluid" src="https://ecourier.com.bd/wp-content/uploads/instant-quote.png" alt="Get an instant quote">
+            </div>
+    <div class="col-4">
+    <div class="calculator-content">
+                <img class="img-fluid mb-4" src="https://ecourier.com.bd/wp-content/uploads/icon-package.svg" alt=""></p>
+    <h4 class="mt-5">Get an instant quote!</h4>
+    <p class="mt-5">Get a rate for your shipment with our easy-to-use quote tool</p>
+    <p>  
+        <button type="button" class="btn btn-primary common-btn" data-toggle="modal" data-target="#exampleModal">
+           Contact Us
+          </button>
+          
+ </div>
+    </p></div>
+          </div>
+        </div>
+     
+      </section>
+      <!-- modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Your Information</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">First Name</label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Last Name</label>
+                    <input type="text" class="form-control" id="inputPassword4">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Present Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Permanent Address</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- modal end -->
+
+      
+    <!--Footer Section Start-->
+    <footer class="footer-section">
+        <div class="quote">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3 class="mb-4">About Company</h3>
+                        <ul>
+                            <li><a href=""> Tracking</a></li>
+                            <li><a href=""> Coverage Map</a></li>
+                            <li><a href=""> Price Quotation</a></li>
+                            <li><a href="">Pricing Information</a></li>
+                            <li><a href="">Our Story</a></li>
+                            <li><a href="">Franchise</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="mt-5">
+                            <li><a href="">Blog</a></li>
+                            <li><a href=""> Media</a></li>
+                            <li><a href="">Career</a></li>
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="">API</a></li>
+                            <li><a href="">Packaging Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="mb-4">Services</h3>
+                        <ul class="">
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href=""> Services</a></li>
+                            <li><a href="">Warehouse</a></li>
+                            <li><a href="">Fulfillment</a></li>
+                            <li><a href="">Call Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="mt-5">
+                            <li><a href="">bKash on Delivery (BOD)</a></li>
+                            <li><a href="">Parcel Pick & Drop Service</a></li>
+                            <li><a href="">Booster SMS</a></li>
+                            <li><a href="">Mobile Top-Up</a></li>
+                            <li><a href=""> Fraud Detection Service</a></li>
+                            <li><a href="">Facebook Sales Automation</a></li>
+                            <li><a href=""> Fragile & Liquid Item Delivery</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md--3">
+                        <img src="img/logo-white-footer.svg" class="logo-white" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <h4><strong style="color: tomato;">Call</strong> Us 09612 500 500</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <h4><strong style="color: tomato;">Email</strong> us support@ecourier.com.bd</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="" class="anchor"><i class="fab fa-facebook"></i></a>
+                        <a href="" class="anchor"><i class="fab fa-instagram"></i></a>
+                        <a href="" class="anchor"><i class="fab fa-twitter-square"></i></a>
+                        
+                    </div>
+                    
+                </div>
+               <div class="row py-5">
+                  <div class="line"></div>
+               </div>
+               <div class="row">
+                   <div class="col-md-6">
+                    <p style="font-size: 1.4rem;">Copyright &copy; 2020 eCourier. All rights reserved. <a href="#">Privacy Policy</a>
+                        <a href="#">Terms and Condition</a>
+                   </div>
+                   <div class="col-md-2"></div>
+                   <div class="col-md-4">
+                       <img src="img/footer-last.png" alt="">
+                   </div>
+               </div>
+          </div>
+       
+        </div>
+  
+         
+    </footer>
+    <!--Footer Section End-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/vendor-js/jquery.waypoints.min.js"></script>
+<script src="js/vendor-js/one-page-nav-min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
